@@ -72,7 +72,7 @@
                     <font color="d4dbe3" face="Arial, Helvetica, sans-serif">Python</font>
                 </a>
             </td>
-             <td align="center" width="13%">
+            <td align="center" width="13%">
                 <a href="mysql.html">
                     <font color="d4dbe3" face="Arial, Helvetica, sans-serif">MySQL</font>
                 </a>
@@ -235,64 +235,174 @@
                     <tr align="center">
                         <td>
                             <font face="Arial, Helvetica, sans-serif" color="92a1b6" size="3">
-                            
-                                <img src="../../assets/images/page-css/faviconCSS.png"
-                                width="40%%"
-                                height="40%"
-                                alt="Logo de Css">
-                                
+
+                                <img src="../../assets/images/page-css/faviconCSS.png" width="40%%" height="40%"
+                                    alt="Logo de Css">
+
                             </font>
                         </td>
                     </tr>
 
                     <!-- Section HTML-->
-                    
+
 
                     <tr>
                         <td>
                             <font face="Arial, Helvetica, sans-serif" color="92a1b6" size="3">
 
-                                <p>Es la base de toda página web, se encarga de estructurar el contenido.
+                                <p>CSS (Cascading Style Sheets) es el lenguaje utilizado para dar estilo y presentación
+                                    al contenido estructurado en HTML. Gracias a CSS, una página web pasa de ser un
+                                    conjunto de texto e imágenes simples a un diseño visual atractivo, organizado y
+                                    adaptable.</p>
+
+                                <p>Su función principal es separar el contenido (HTML) del diseño (CSS), lo que permite
+                                    mantener un desarrollo más ordenado, escalable y fácil de mantener.</p>
+
+                                <h3>
+                                    <font color="0089ca">Características principales de CSS</font>
+                                </h3>
+
+                                <ul>
+                                    <li>
+                                        Define colores, tipografías, tamaños, fondos y márgenes.
+                                    </li>
+                                    <li>
+                                        Permite controlar la disposición de los elementos en la pantalla.
+                                    </li>
+                                    <li>
+                                        Facilita la creación de diseños responsivos que se adaptan a diferentes
+                                        dispositivos.
+                                    </li>
+                                    <li>
+                                        Se aplica mediante tres formas principales:
+                                        <ul>
+                                            <li>
+                                                <b>Inline</b>: dentro de un atributo style.
+                                            </li>
+                                            <li>
+                                                <b>Interno</b>: dentro de la etiqueta <font color="white">
+                                                    <b>&lt;style&gt;</b>
+                                                </font> en el documento HTML.
+                                            </li>
+                                            <li>
+                                                <b>Externo</b>: en un archivo <u>.css</u> separado, vinculado con <font
+                                                    color="white"><b>&lt;link&gt;</b></font>.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <h3 align="center">
+                                    <font color="ffffff"><u>Temas básicos de CSS</u></font>
+                                </h3>
+
+                                <h4>
+                                    <font color="0089ca">Selectores y propiedadess</font>
+                                </h4>
+
+                                <p>Los selectores indican qué elementos de HTML se van a modificar, y las propiedades
+                                    especifican el estilo que se aplicará.</p>
+
+                                <h5>
+                                    <font color="00acff">Ejemplos</font>
+                                </h5>
+
+                                <ul>
+                                    <li>
+                                        p { color: blue; } → todos los párrafos en azul.
+                                    </li>
+                                    <li>
+                                        .clase { font-size: 18px; } → afecta a elementos con esa clase.
+                                    </li>
+                                    <li>
+                                        #id { text-align: center; } → centra el texto de un elemento con ID.
+                                    </li>
+
+                                </ul>
+
+                                <h4>
+                                    <font color="0089ca">Colores y fuentes</font>
+                                </h4>
+
+                                <p>CSS permite modificar la apariencia del texto y otros elementos:</p>
+
+                                <ul>
+                                    <li>Colores mediante nombres (red), códigos hexadecimales (#FF0000), o valores
+                                        RGB/HSL.</li>
+                                    <li>Tipografías con font-family.</li>
+                                    <li>Tamaños de texto con font-size.</li>
+                                    <li>Estilos como <b>negrita</b> (font-weight), <i>cursiva</i> (font-style) y
+                                        decoraciones (text-decoration).</li>
+                                </ul>
+
+                                <h4>
+                                    <font color="0089ca">Modelo de caja (Box Model)</font>
+                                </h4>
+
+                                <p>Cada elemento en HTML se representa como una caja rectangular compuesta por:</p>
+
+                                <ul>
+                                    <li><b>Contenido</b> (texto o imagen).</li>
+                                    <li><b>Padding</b>: espacio interno entre el contenido y el borde.</li>
+                                    <li><b>Border</b>: contorno que rodea el elemento.</li>
+                                    <li><b>Margin</b>: espacio externo que separa un elemento de otro.</li>
+                                </ul>
+
+                                <p>Entender este modelo es fundamental para organizar correctamente los diseños.</p>
+
+                                <h4>
+                                    <font color="0089ca">Posicionamiento de elemento</font>
+                                </h4>
+
+                                <p>
+                                    CSS permite ubicar los elementos en diferentes posiciones:
                                 </p>
                                 <ul>
-
-                                    <li>
-                                        <strong>por qué aprenderlo:</strong> sin HTML no puedes crear sitios web, ya que
-                                        define títulos,
-                                        párrafos, listas, imágenes, enlaces, formularios, etc.
-                                    </li>
-
+                                    <li><b>Static</b>: posición por defecto.</li>
+                                    <li><b>Relative</b>: desplazamiento relativo a su posición original.</li>
+                                    <li><b>Absolute</b>: se posiciona respecto al contenedor más cercano con posición
+                                        definida.</li>
+                                    <li><b>Fixed</b>: permanece en el mismo lugar incluso al hacer scroll.</li>
+                                    <li><b>Flexbox y Grid</b>: herramientas modernas para crear diseños responsivos y
+                                        organizados en columnas y filas.</li>
                                 </ul>
 
                                 <h4>
-                                    <font color="38f461">Ventajas:</font>
+                                    <font color="0089ca">Responsive Design</font>
                                 </h4>
+
+                                <p>
+                                    El diseño responsivo busca que las páginas se adapten a diferentes tamaños de
+                                    pantalla (computadoras, tablets, móviles).
+                                </p>
+
                                 <ul>
-
-                                    <li>
-
-                                        Es sencillo de aprender y entender.
-                                    </li>
-                                    <li>
-                                        Está estandarizado y soportado por todos los navegadores.
-                                    </li>
-                                    <li>
-                                        Permite crear la semántica del contenido.
-                                    </li>
+                                    <li>Se logra principalmente con media queries:</li>
                                 </ul>
 
-                                <h4>
-                                    <font color="dd3434">Desventajas:</font>
-                                </h4>
-                                <ul>
+                                <p align="center">
+                                    <font color="0089ca">@media </font>
+                                    <font color="white">(</font>
+                                    <font color="3fd668">max-width</font> : <font color="tomato">768px</font>
+                                    <font color="white">) {</font><br>
+                                    <font color="white"> body {</font><br>
+                                    <font color="3fd668">background-color</font>: lightgray; } <br>
+                                    }
+                                </p>
+                                <br>
+                                <hr width="80%" border="1" color="003557">
 
-                                    <li>
-                                        No es un lenguaje de programación (no tiene lógica ni condicionales).
-                                    </li>
-                                    <li>
-                                        Por sí solo, el diseño es muy limitado
-                                    </li>
-                                </ul>
+                                <div align="center">
+                                    <h3 align="center">
+                                        <font color="0089ca">Curso COMPLETO de CSS <font color="0099ff">@midudev</font>
+                                        </font>
+                                    </h3>
+
+                                    <iframe src="https://www.youtube.com/embed/TlJbu0BMLaY"
+                                        frameborder="0" width="80%" height="300" allowfullscreen></iframe>
+
+                                </div>
+
                             </font>
 
                         </td>
